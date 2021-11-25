@@ -1,24 +1,10 @@
-# vue-demo
+### 2048 小游戏 demo
 
-## Project setup
-```
-yarn install
-```
+练习的 2048 小游戏 demo，初次用 vue，练习的目的是熟悉熟悉 vue 的各种用法。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### 玩法
 
-### Compiles and minifies for production
-```
-yarn build
-```
+star 下来之后 yarn start 开启服务，然后在浏览器输入 http://localhost:8080/
+可以用过按钮或者上下左右键就能控制啦，没有做记分板
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+感兴趣的朋友可以 star 下来试玩试玩，欢迎大佬指导

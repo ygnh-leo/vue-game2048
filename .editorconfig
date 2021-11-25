@@ -1,0 +1,22 @@
+root = true
+
+[*]
+indent_style = tab
+indent_size = 2
+tab_width = 2
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+# root ----------------------- 停止查找 .editorconfig 文件 boolean
+# indent_style --------------- 缩进风格 tab / space
+# indent_size ---------------- 缩进宽度 number
+# tab_width ------------------ tab宽度 number
+# end_of_line ---------------- 换行符 lf / cr / crlf
+# charset -------------------- 编码类型，可以是 latin1、utf-8、utf-8-bom、utf-16be / utf-16le
+# trim_trailing_whitespace --- 除去换行行首的任意空白字符 boolean
+# insert_final_newline ------- 使文件以一个空白行结尾 boolean

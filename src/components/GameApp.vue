@@ -7,7 +7,7 @@
 					v-for="(item, key) of arr"
 					:class="['item', `val-${item}`]"
 				>
-					{{ item }}
+					{{ item || '' }}
 				</div>
 			</div>
 		</div>
